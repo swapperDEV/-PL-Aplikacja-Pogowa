@@ -4,20 +4,20 @@ const weatherSet = () => {
     console.log(allData.data.weather[0].id);
     let aweathernumber = allData.data.weather[0].id;
     if (aweathernumber > '800') {
-        image.setAttribute('src', '/grafiki/clouds.png');
+        image.setAttribute('src', './grafiki/clouds.png');
     } else if (aweathernumber == '800') {
-        image.setAttribute('src', '/grafiki/sun.png');
+        image.setAttribute('src', './grafiki/sun.png');
     } else if (aweathernumber >= '700') {
-        image.setAttribute('src', '/grafiki/fog.png');
+        image.setAttribute('src', './grafiki/fog.png');
     } else if (aweathernumber >= '600') {
-        image.setAttribute('src', '/grafiki/snow.png');
+        image.setAttribute('src', './grafiki/snow.png');
     } else if (aweathernumber >= '500') {
-        image.setAttribute('src', '/grafiki/rain.png');
+        image.setAttribute('src', './grafiki/rain.png');
     } else if (aweathernumber >= '300') {
         image.setAttribute('src', './grafiki/drizzle.png');
     } else if (aweathernumber >= '200') {
-        image.setAttribute('src', '/grafiki/thunderstorm.png');
+        image.setAttribute('src', './grafiki/thunderstorm.png');
     } else {
-        image.setAttribute('src', '/grafiki/unknown.png');
+        image.setAttribute('src', './grafiki/unknown.png');
     }
 }
