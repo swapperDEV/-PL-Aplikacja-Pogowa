@@ -1,0 +1,135 @@
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    background-image: url(bg/Mountain.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80vw;
+    height: 80vh;
+}
+.app {
+    width: 50%;
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border-radius: 50px;
+}
+.app h1 {
+    font-family: 'Potta One', cursive;
+    font-size: 70px;
+    color: cadetblue;
+    font-weight: bold;
+    text-align: center;
+}
+.city {
+    background-color: white;
+    font-size: 19px;
+    padding: 5px;
+    padding-right: 15px;
+    color: cadetblue;
+    border: 3px  solid rgb(13, 58, 196);
+    border-radius: 50px;
+    text-align: center;
+    transition: 0.1s ease;
+    margin: 10px;
+}
+.city:focus {
+    color: rgb(143, 29, 143);
+}
+.city:hover {
+    color: blue;
+}
+.citys {
+    background-color: white;
+    font-size: 19px;
+    padding: 5px;
+    padding-right: 15px;
+    color: cadetblue;
+    border: 3px  solid rgb(13, 58, 196);
+    border-radius: 50px;
+    text-align: center;
+    transition: 0.1s ease;
+    margin: 10px;
+}
+.citys:hover {
+    transform: scale(1.1);
+    color: blue;
+}
+.cities {
+    position: absolute;
+    bottom: 5%;
+    opacity: 1;
+    transition: 0.3s ease;
+    left: 5%;
+}
+.error {
+    color: red;
+}
+.output {
+    text-align: center;
+    width: 80%;
+    margin: 10px auto 10px auto;
+    height: 60%;
+    position: relative;
+}
+.output b {
+    transition: 0.3s ease;
+    color: cadetblue;
+    font-family: 'Potta One', cursive;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 10px;
+}
+.stats {
+    background-color: cadetblue;
+    border-radius: 50px;
+    position: absolute;
+    display: flex;
+    bottom: 1%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    font-family: 'Potta One', cursive;
+    opacity: 0;
+}
+.stats h3 {
+    margin: 10px;
+}
+.image {
+    width: 20%;
+    height: 20%;
+}
+@media (max-width: 1300px) {
+    .stats h3 {
+        font-size: 10px;
+    }
+    .app h1 {
+        font-size: 20px;
+    }
+    .app {
+        overflow: none;
+    }
+}
+@media (max-width: 600px) {
+    .stats h3 {
+        font-size: 8px;
+    }
+    .app h1 {
+        font-size: 20px;
+    }
+}
+.swapper {
+    font-size: 20px;
+    color: cadetblue;
+    font-family: 'Potta One', cursive;
+    padding: 20px;
+}
