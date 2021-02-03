@@ -1,3 +1,3 @@
 #Weather APP
 Simple Weather APP
-https://swapperdev.github.io/-PL-Aplikacja-Pogowa/
+https://swapperdev.github.io/Simple-Weather-App/
